@@ -1,0 +1,50 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #fff;
+  background-image: url("../images/starfield.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.h-w-1 {
+  height: 100%;
+  vertical-align: center;
+}
+
+.height-win-full {
+  height: 900px;
+}
+
+.btn-ghost {
+  border: 3px solid #90ccc3;
+  border-radius: 8px;
+  color: #b4fff4;
+  transition: linear;
+  position: absolute;
+  top: 0;
+}
+
+.btn-ghost:hover {
+  color: rgba(255, 255, 255, .7);
+  border-color: rgba(180, 255, 244, .2);
+  position: absolute;
+  top: 4px;
+}
+
+.btn-ghost:focus {
+  color: rgba(255, 255, 255, .7);
+  border-color: rgba(180, 255, 244, .2);
+}
+
+.btn-ghost:active {
+  color: rgba(255, 255, 255, .7);
+  border-color: rgba(180, 255, 244, .2);
+}
+
+.icon {
+  background-image: url("../images/rocket.svg");
+}
